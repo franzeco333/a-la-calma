@@ -2,20 +2,26 @@
 
 Agenda y finanzas para Android 8 o posterior.
 
-## Descargar
+[Descargar A La Calma 0.6.0-beta1](https://github.com/franzeco333/a-la-calma/releases/download/v0.6.0-beta1/A-La-Calma-0.6.0-beta1-debug.apk)
 
-[Descargar A La Calma 0.5.0-beta2 (APK)](https://github.com/franzeco333/a-la-calma/releases/download/v0.5.0-beta2/A-La-Calma-0.5.0-beta2-debug.apk)
+Puedes actualizar desde Ajustes → Actualizaciones. Instala encima de la versión anterior sin desinstalar ni borrar datos. Android confirma la instalación.
 
-Instala sobre la versión existente **sin desinstalarla** para conservar los datos. Esta beta permite descargar futuras actualizaciones desde Ajustes; las versiones anteriores requieren instalar esta APK manualmente una vez. Android confirma la instalación y puede pedir autorizar esta fuente.
+## Espacios
 
-## Esta versión
+Comparte tu agenda existente desde Tus espacios → Compartir mi agenda, o crea un grupo. Mantén pulsado un espacio para ver sus opciones e invitar. Se puede entrar mediante enlace o escribiendo su código de cinco caracteres. Los invitados confirman y entran como lectores; la capacidad es configurable hasta 16 personas. Gmail no es necesario para los grupos.
 
-Aclara los correos remitentes de los bancos y permite reutilizar la cuenta conectada o agregar otras cuentas de Gmail. Gmail es opcional, solicita permiso de lectura del buzón y busca los remitentes indicados desde la vinculación. Los movimientos detectados se revisan antes de registrarlos.
+El acceso anónimo depende de los datos de la instalación. Desinstalar o borrar datos puede perder el acceso. Los espacios del sistema anterior se conservan para consulta.
 
-Los grupos por enlace/código y la sincronización de la agenda personal existente están pendientes. El sistema actual de espacios aún utiliza Google e invitaciones por correo. Las notificaciones entre integrantes no están activas.
+## Avisos bancarios
 
-Compilación y 52 pruebas automatizadas correctas; pendiente validar instalación en teléfono. APK de prueba firmada con el mismo certificado de las versiones anteriores.
+Gmail es opcional. Solicita permiso de lectura del buzón y filtra los remitentes bancarios configurados desde la vinculación. Un movimiento reconocido permite revisar descripción y categoría, o guardarlo sin categoría como Nuevo Gasto/Ingreso. Los datos ambiguos requieren revisión. Actualmente la detección monetaria automática usa CLP.
 
-SHA-256 de la APK: `0c30b1248cf1f487202df9e59afb492871556f07f9c6bfd09fdfa46f3499721e`.
+La consulta en segundo plano sigue siendo periódica y puede retrasarse. No hay recepción inmediata garantizada ni notificaciones remotas completas de grupos con la app cerrada.
 
-Este repositorio contiene instaladores e instrucciones. No incluye agendas, correos, finanzas ni el código fuente de la aplicación.
+## Verificación
+
+55 pruebas Android, compilación y lint sin errores; 23 pruebas de reglas de acceso y prueba real de entrada por código con dos identidades temporales. Instalación y arranque comprobados en emulador; pendiente validación amplia en teléfonos físicos.
+
+APK de prueba con el mismo certificado de versiones anteriores. SHA-256: `969d4d180a0bdad05286005b28968be8d226a405ed3f1cdcce7381e746c24cf9`.
+
+Este repositorio contiene instaladores e instrucciones. No contiene agendas, correos, finanzas ni el código fuente de la aplicación.
