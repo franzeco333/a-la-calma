@@ -2,9 +2,13 @@
 
 Agenda y finanzas para Android 8 o posterior.
 
-[Descargar A La Calma 0.6.0-beta1](https://github.com/franzeco333/a-la-calma/releases/download/v0.6.0-beta1/A-La-Calma-0.6.0-beta1-debug.apk)
+[Descargar A La Calma 0.6.0-beta2](https://github.com/franzeco333/a-la-calma/releases/download/v0.6.0-beta2/A-La-Calma-0.6.0-beta2-debug.apk)
 
 Puedes actualizar desde Ajustes → Actualizaciones. Instala encima de la versión anterior sin desinstalar ni borrar datos. Android confirma la instalación.
+
+## Correcciones beta2
+
+Ajustes con Guardar visible, botones destacados, paletas por espacio, archivado de grupos antiguos del propietario y corrección al compartir agenda. Nuevo atajo Agregar actividad y lista de remitentes bancarios que conserva los existentes al añadir otros.
 
 ## Espacios
 
@@ -20,8 +24,8 @@ La consulta en segundo plano sigue siendo periódica y puede retrasarse. No hay 
 
 ## Verificación
 
-55 pruebas Android, compilación y lint sin errores; 23 pruebas de reglas de acceso y prueba real de entrada por código con dos identidades temporales. Instalación y arranque comprobados en emulador; pendiente validación amplia en teléfonos físicos.
+57 pruebas Android, compilación y lint sin errores; 23 pruebas de reglas de acceso y prueba real de entrada por código con dos identidades temporales. Instalación y arranque comprobados en emulador; pendiente validación amplia en teléfonos físicos.
 
-APK de prueba con el mismo certificado de versiones anteriores. SHA-256: `969d4d180a0bdad05286005b28968be8d226a405ed3f1cdcce7381e746c24cf9`.
+APK de prueba con el mismo certificado de versiones anteriores. SHA-256: `8fc3f8bf49e234a324629d2922653e17423314a7c861356c88eec6822cc0c349`.
 
 Este repositorio contiene instaladores e instrucciones. No contiene agendas, correos, finanzas ni el código fuente de la aplicación.
